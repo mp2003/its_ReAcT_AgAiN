@@ -13,7 +13,8 @@ const App = () => {
       <Game /> */}
       {/* <InputUsingRef /> */}
       {/* <SearchBar /> */}
-      <List />
+      {/* <List /> */}
+      
     </>
   );
 };

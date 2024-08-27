@@ -5,6 +5,7 @@ import Game from "./components/Game";
 import InputUsingRef from "./components/InputUsingRef";
 import SearchBar from "./components/SearchBar";
 import List from "./components/List";
+import Show_Hide from "./Show_Hide";
 const App = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const App = () => {
       {/* <InputUsingRef /> */}
       {/* <SearchBar /> */}
       {/* <List /> */}
-      
+      <Show_Hide />
     </>
   );
 };

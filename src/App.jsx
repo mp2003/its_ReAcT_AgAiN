@@ -7,17 +7,20 @@ import SearchBar from "./components/SearchBar";
 import List from "./components/List";
 import Show_Hide from "./Show_Hide";
 import DisableButton from "./DisableButton";
+import ParentChild from "./components/ParentChild";
 const App = () => {
   return (
     <>
       {/* <Counter />
-      <Input />
+      
       <Game /> */}
       {/* <InputUsingRef /> */}
       {/* <SearchBar /> */}
       {/* <List /> */}
       {/* <Show_Hide /> */}
-      <DisableButton />
+      {/* <DisableButton /> */}
+      <ParentChild />
+      {/* <Input /> */}
     </>
   );
 };

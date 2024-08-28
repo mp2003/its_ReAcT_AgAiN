@@ -10,7 +10,7 @@ const ParentChild = () => {
         Parent
         <div className="p-4 m-4 w-[80%] border-pink-500 border-2">{val}</div>
       </div>
-      <Child str={val} updateVal={setVal} />
+      <Child updateVal={setVal} />
     </>
   );
 };

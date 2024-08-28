@@ -8,6 +8,7 @@ import List from "./components/List";
 import Show_Hide from "./Show_Hide";
 import DisableButton from "./DisableButton";
 import ParentChild from "./components/ParentChild";
+import Add from "./components/Add";
 const App = () => {
   return (
     <>
@@ -19,8 +20,9 @@ const App = () => {
       {/* <List /> */}
       {/* <Show_Hide /> */}
       {/* <DisableButton /> */}
-      <ParentChild />
+      {/* <ParentChild /> */}
       {/* <Input /> */}
+      <Add />
     </>
   );
 };

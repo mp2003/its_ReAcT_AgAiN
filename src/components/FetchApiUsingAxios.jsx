@@ -9,13 +9,31 @@ const FetchApiUsingAxios = () => {
   //     .then((data) => setUserData(data[0]));
   // };
   // fetchAPI()
-  const axiosAPI = async ()=>{
-    let response = axios.get("https://jsonplaceholder.typicode.com/users");
-    console.log((await response).data);
-    // console.log((await response).status,(await response).config,(await response).request,(await response).headers);
-  }
+  const axiosAPI = async () => {
+    try {
+      let response = await axios.get(
+        "https://jsonplaceholder.typicode.com/users"
+      ); // Await the response once
+      let userData = response.data; // Access the data
+      // console.log(userData);
 
-  axiosAPI();
+      setUserData(userData[0]);
+
+      // If you need to access other response properties:
+      console.log(
+        response.status,
+        response.config,
+        response.request,
+        response.headers
+      );
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+
+  useEffect(() => {
+    axiosAPI();
+  }, []);
 
   return (
     <>

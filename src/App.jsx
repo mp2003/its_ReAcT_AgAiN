@@ -9,7 +9,7 @@ import Show_Hide from "./components/Show_Hide";
 import DisableButton from "./components/DisableButton";
 import ParentChild from "./components/ParentChild";
 import Add from "./components/Add";
-import FetchApiUsingAxios from "./components/FetchApiUsingAxios";
+// import FetchApiUsingAxios from "./components/FetchApiUsingAxios";
 const App = () => {
   return (
     <>
@@ -17,14 +17,14 @@ const App = () => {
       
       <Game /> */}
       {/* <InputUsingRef /> */}
-      {/* <SearchBar /> */}
+      <SearchBar />
       {/* <List /> */}
       {/* <Show_Hide /> */}
       {/* <DisableButton /> */}
       {/* <ParentChild /> */}
       {/* <Input /> */}
       {/* <Add /> */}
-      <FetchApiUsingAxios />
+      {/* <FetchApiUsingAxios /> */}
     </>
   );
 };

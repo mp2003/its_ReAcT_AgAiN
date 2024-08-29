@@ -5,10 +5,11 @@ import Game from "./components/Game";
 import InputUsingRef from "./components/InputUsingRef";
 import SearchBar from "./components/SearchBar";
 import List from "./components/List";
-import Show_Hide from "./Show_Hide";
-import DisableButton from "./DisableButton";
+import Show_Hide from "./components/Show_Hide";
+import DisableButton from "./components/DisableButton";
 import ParentChild from "./components/ParentChild";
 import Add from "./components/Add";
+import FetchApiUsingAxios from "./components/FetchApiUsingAxios";
 const App = () => {
   return (
     <>
@@ -22,7 +23,8 @@ const App = () => {
       {/* <DisableButton /> */}
       {/* <ParentChild /> */}
       {/* <Input /> */}
-      <Add />
+      {/* <Add /> */}
+      <FetchApiUsingAxios />
     </>
   );
 };

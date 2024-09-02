@@ -11,6 +11,7 @@ import ParentChild from "./components/ParentChild";
 import Add from "./components/Add";
 import PasswordObj from "./components/PasswordObj";
 import ToDoList from "./components/ToDoList";
+import Rgb from "./components/Rgb";
 // import FetchApiUsingAxios from "./components/FetchApiUsingAxios";
 const App = () => {
   return (
@@ -28,7 +29,8 @@ const App = () => {
       {/* <Add /> */}
       {/* <FetchApiUsingAxios /> */}
       {/* <PasswordObj /> */}
-      <ToDoList />
+      {/* <ToDoList /> */}
+      <Rgb />
     </>
   );
 };

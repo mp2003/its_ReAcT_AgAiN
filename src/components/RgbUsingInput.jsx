@@ -18,8 +18,9 @@ const RgbUsingInput = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(`RGB value: (${red}, ${green}, ${blue})`);
+    document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
   };
-  //   console.log(red, green, blue);
+  // console.log(red, green, blue);
 
   return (
     <>
@@ -59,7 +60,7 @@ const RgbUsingInput = () => {
           />
           <button
             type="submit"
-            className="border-2 border-slate-300 w-1/12 mt-4 rounded-md p-1 text-black hover:bg-green-500"
+            className="border-2 border-slate-300 w-1/12 mt-4 rounded-md p-1 text-black hover:bg-green-500 hover:text-white"
           >
             Sumbit
           </button>

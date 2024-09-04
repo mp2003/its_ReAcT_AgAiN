@@ -12,6 +12,7 @@ import Add from "./components/Add";
 import PasswordObj from "./components/PasswordObj";
 import ToDoList from "./components/ToDoList";
 import Rgb from "./components/Rgb";
+import HorizontalScrolling from "./components/Horizontal/HorizontalScrolling";
 // import FetchApiUsingAxios from "./components/FetchApiUsingAxios";
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
       {/* <FetchApiUsingAxios /> */}
       {/* <PasswordObj /> */}
       {/* <ToDoList /> */}
-      <Rgb />
+      {/* <Rgb /> */}
+      <HorizontalScrolling />
     </>
   );
 };
